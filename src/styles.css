@@ -1,3 +1,18 @@
+:root{
+    --background-color:#FCF2FF;
+    --reaction:rgb(255, 85, 85);
+    --reaction-lght:rgba(255, 85, 85, 0.05);
+    --memory:rgb(255, 176, 31);
+    --memory-lght:rgba(255, 176, 31, 0.05);
+    --verbal:rgb(0, 187, 143);
+    --verbal-lght:rgba(0, 187, 143, 0.05);
+    --visual:rgb(17, 37, 214);
+    --visual-lght:rgba(17, 37, 214, 0.05);
+    --btn-color:#303B59;
+    --light-blue:#D9D9D9;
+    --wht:#FFF;
+}
+
 *{
     margin:0;
     padding:0;
@@ -11,5 +26,116 @@
 body{
     line-height:1.4;
     font-size:100%;
+    width:100%;
+    height:100%;/*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=ffffff&c2=cadbeb&gt=l&gd=dtl
+    */
+    background: #FFFFFF;
+    background: linear-gradient(135deg, #FFFFFF, #CADBEB);;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    color:var(--wht);
 }
 
+.color-lgt{
+    color:var(--light-blue);
+}
+
+
+
+/* utillity classes */
+
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    display:flex;
+    width:46rem;
+    height:36rem
+}
+
+.btn{
+    background-color:var(--btn-color);
+    color:#FFFFFF;
+    border:none;
+    border-radius:30px;
+    padding:1rem 7rem;
+    cursor:pointer;
+}
+
+.result-card{
+    background-color:blue;
+    border-radius:25px;
+    text-align: center;
+    padding:43px 39px;
+}
+
+.result-circle{
+    background-color:darkblue;
+    border-radius:50%;
+    height:200px;
+    width:200px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sum-num-btn-clr{
+    color:var(--btn-color);
+}
+
+.num-group{
+    color:var(--light-blue);
+}
+
+.num-group span{
+    color:var(--btn-color);
+}
+
+.summary{
+    padding:43px 39px;
+    background-color: #fff;
+}
+
+.categories{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+}
+
+.category{
+    width:18rem;
+    height:3.5rem;
+    border-radius:20px;
+    background-color:#00BB8F;
+    display:flex;
+    justify-content:space-between;  
+    padding:20px 14px;
+}
+
+
+
+#reaction{
+    color:var(--reaction);
+    background-color:var(--reaction-lght);
+}
+#memory{
+    color:var(--memory);
+    background-color:var(--memory-lght);
+}
+#verbal{
+    color:var(--verbal);
+    background-color:var(--verbal-lght);
+}
+#visual{
+    color:var(--visual);
+    background-color:var(--visual-lght);
+}

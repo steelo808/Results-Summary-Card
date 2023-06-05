@@ -6,8 +6,10 @@ import Summary from "./components/Summary"
 function App() {
   return (
     <div className='container'>
+    <div className ="card">
     <Results />
     <Summary />
+    </div>
     </div>
   )
 }
