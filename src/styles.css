@@ -27,10 +27,12 @@ body{
     line-height:1.4;
     font-size:100%;
     width:100%;
-    height:100%;/*
+    height:100vh;/*
     * Created with https://www.css-gradient.com
     * Gradient link: https://www.css-gradient.com/?c1=ffffff&c2=cadbeb&gt=l&gd=dtl
     */
+
+
     background: #FFFFFF;
     background: linear-gradient(135deg, #FFFFFF, #CADBEB);;
     display: flex;
@@ -46,6 +48,8 @@ body{
 
 
 
+
+
 /* utillity classes */
 
 .container{
@@ -57,7 +61,7 @@ body{
 .card{
     display:flex;
     width:46rem;
-    height:36rem
+    height:36rem;
 }
 
 .btn{
@@ -76,17 +80,33 @@ body{
     padding:43px 39px;
 }
 
+.result-card h3{
+    margin-bottom:1.6rem;
+}
+
+
+#result-num{
+    font-size:4rem;
+}
+
+
 .result-circle{
     background-color:darkblue;
     border-radius:50%;
     height:200px;
     width:200px;
-    margin:0 auto;
+    margin:2.56rem auto;
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
 }
+
+.your-performance{
+    max-width:16.25rem;
+    font-size:1.2rem;
+}
+
 
 .sum-num-btn-clr{
     color:var(--btn-color);
@@ -103,18 +123,20 @@ body{
 .summary{
     padding:43px 39px;
     background-color: #fff;
+    border-radius:25px;
 }
 
 .categories{
     display:flex;
     flex-direction:column;
     gap:1rem;
+    margin:2.56rem 0;
 }
 
 .category{
     width:18rem;
     height:3.5rem;
-    border-radius:20px;
+    border-radius:15px;
     background-color:#00BB8F;
     display:flex;
     justify-content:space-between;  
