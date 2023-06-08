@@ -11,6 +11,7 @@
     --btn-color:#303B59;
     --light-blue:#D9D9D9;
     --wht:#FFF;
+    --main-font:'Bebas Neue', sans-serif;
 }
 
 *{
@@ -24,6 +25,7 @@
 }
 
 body{
+    font-family:var(--main-font);
     line-height:1.4;
     font-size:100%;
     width:100%;
@@ -74,7 +76,12 @@ body{
 }
 
 .result-card{
-    background-color:blue;
+    /*
+    * Created with https://www.css-gradient.com
+    * Gradient link: https://www.css-gradient.com/?c1=375def&c2=2b26cc&gt=l&gd=dbb
+    */
+    background: #375DEF;
+    background: linear-gradient(0deg, #375DEF, #2B26CC);;
     border-radius:25px;
     text-align: center;
     padding:43px 39px;
@@ -91,7 +98,12 @@ body{
 
 
 .result-circle{
-    background-color:darkblue;
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=29429e&c2=0d06e0&gt=l&gd=dtt
+*/
+    background: #29429E;
+    background: linear-gradient(180deg, #29429E, #0D06E0);
     border-radius:50%;
     height:200px;
     width:200px;
