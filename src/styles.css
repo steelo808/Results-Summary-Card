@@ -73,6 +73,8 @@ body{
     border-radius:30px;
     padding:1rem 7rem;
     cursor:pointer;
+    font-family:var(--main-font);
+    font-size:1rem;
 }
 
 .result-card{
@@ -88,12 +90,18 @@ body{
 }
 
 .result-card h3{
-    margin-bottom:1.6rem;
+    margin-bottom:0.3rem;
+    font-size:1.8rem;
 }
 
 
 #result-num{
-    font-size:4rem;
+    font-size:6rem;
+}
+
+.title{
+    font-size:1.5rem;
+    letter-spacing: 1px;
 }
 
 
@@ -116,7 +124,7 @@ body{
 
 .your-performance{
     max-width:16.25rem;
-    font-size:1.2rem;
+    font-size:1.5rem;
 }
 
 
